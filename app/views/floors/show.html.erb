@@ -1,0 +1,28 @@
+<body id="page_show" class="">
+  <div id="infobox" class="light">
+    <%= link_to 'Back', floors_path, :class => "link" %>
+    <%= link_to 'Edit', edit_floor_path(@floor), :class => "link" %>
+    <p style="display:inline">
+      <strong>Map Name:</strong>
+      
+      <%= @floor.name %>
+      <strong style="padding-left:10px">Floor Number:</strong>
+      <%= @floor.level %>
+    </p>
+    <button id="btn_clear">Clear Floor</button>
+    <button id="btn_random">Randomize Floor</button>
+  </div>
+  <div id="loadicon_div">
+    <%= image_tag "hex-loader", :id=>"loadicon_img" %>
+  </div>
+  <div id="floor_container">
+    <object id="floor" 
+      type="image/svg+xml" 
+      class="centered floor<%= @floor.level %>"
+      data="<%= asset_path('floor'+@floor.level.to_s+'.svg') %>" 
+    ></object>
+  </div>
+  <!--<div class="svgContainer">-->
+  <!--</div>-->
+  <%= javascript_include_tag "floor" %>
+</body>

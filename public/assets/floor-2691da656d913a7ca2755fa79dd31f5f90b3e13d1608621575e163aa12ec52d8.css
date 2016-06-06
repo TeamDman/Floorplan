@@ -1,0 +1,35 @@
+th {
+    text-align:left;
+    padding-right:50px;
+}
+#random {
+    display:block;
+}
+.svgContainer {
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    height:20vw;
+    resize: both;
+    overflow: auto;
+}
+#floor {
+    height:100vh;
+    ;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.floor1 {
+    
+}
+.floor2 {
+
+}
+.floor3 {
+
+}
