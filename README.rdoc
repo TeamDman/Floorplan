@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project for a business class. 
+The application runs a Rails server that hosts a map of St. Peter Catholic High School.
+The user can click on the rooms on each of the three floors to change the colour of the room.
 
-Things you may want to cover:
+The documentation can be found <a href="http://teamdman.github.io/Floorplan/doc/app/index.html">here</a>. It is auto-generated and a WIP.
 
-* Ruby version
+The launch script is used for the project currently hosted on <a href="https://preview.c9users.io/teamdman/floorplan">Cloud 9</a>, an online IDE workspace.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The application has only been tested in chrome so far.
