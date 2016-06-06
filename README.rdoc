@@ -4,8 +4,8 @@ This is a project for a business class.
 The application runs a Rails server that hosts a map of St. Peter Catholic High School.
 The user can click on the rooms on each of the three floors to change the colour of the room.
 
-The documentation can be found <a href="http://teamdman.github.io/Floorplan/doc/app/index.html">here</a>. It is auto-generated and a WIP.
+The documentation can be found here[http://teamdman.github.io/Floorplan/doc/app/index.html]. It is auto-generated and a WIP.
 
-The launch script is used for the project currently hosted on <a href="https://preview.c9users.io/teamdman/floorplan">Cloud 9</a>, an online IDE workspace.
+The launch script is used for the project currently hosted on {Cloud 9}[https://preview.c9users.io/teamdman/floorplan], an online IDE workspace.
 
 The application has only been tested in chrome so far.
