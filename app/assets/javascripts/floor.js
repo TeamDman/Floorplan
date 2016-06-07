@@ -68,6 +68,9 @@ function getFloor(paths) {
 		success: function(response) {
 			console.log(response);
 			name = response.name;
+			if (response.json.length<5) {
+				return;
+			}
 			var rooms = JSON.parse(response.json);
 			//Level inequality check was here, not sure why
 			for (var i=0;i<paths.length;i++) {

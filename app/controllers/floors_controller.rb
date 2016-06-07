@@ -34,7 +34,7 @@ class FloorsController < ApplicationController
         @floor = Floor.new(floor_params)
  
         if @floor.save
-            redirect_to floor_url(@floor)
+            redirect_to edit_floor_url(@floor)
         else
             render 'new'
         end
@@ -44,8 +44,8 @@ class FloorsController < ApplicationController
         @floor = Floor.find(params[:id])
         
         # if @floor.update(floor_params)
-        #     # render plain: params[:floor].inspect# 
-        #     redirect_to @floor
+        #     redirect_to edit_floor_path(@floor)
+        # end
         # else
         #     render 'edit'
         #     # render plain: params[:floor].inspect# 
