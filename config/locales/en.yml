@@ -21,3 +21,10 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        floor:
+          attributes:
+            level:
+              inclusion: " needs to be 1, 2, or 3"

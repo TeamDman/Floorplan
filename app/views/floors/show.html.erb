@@ -1,19 +1,14 @@
 <body id="page_show" class="">
   <div id="infobox" class="light">
-    <%= link_to 'Back', floors_path, :class => "link" %>
+    <%= link_to 'Home', floors_path, :class => "link" %>
     <%= link_to 'Edit', edit_floor_path(@floor), :class => "link" %>
-    <p style="display:inline">
-      <strong>Map Name:</strong>
-      
-      <%= @floor.name %>
-      <strong style="padding-left:10px">Floor Number:</strong>
-      <%= @floor.level %>
-    </p>
-    <button id="btn_clear">Clear Floor</button>
-    <button id="btn_random">Randomize Floor</button>
-  </div>
-  <div id="loadicon_div">
-    <%= image_tag "hex-loader", :id=>"loadicon_img" %>
+    
+    <strong>Map Name:</strong>
+    
+    <%= @floor.name %>
+    <strong style="padding-left:10px">Floor Number:</strong>
+    <%= @floor.level %>
+    <p id="noteditwarning">You need to be in edit mode to change room colours</p>
   </div>
   <div id="floor_container">
     <object id="floor" 

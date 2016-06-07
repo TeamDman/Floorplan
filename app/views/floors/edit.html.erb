@@ -1,5 +1,51 @@
-<h1>Edit Floor</h1>
+<%= form_for @floor do |f| %>
  
-<%= render 'floor' %>
- 
-<%= link_to 'Back', floors_path %>
+  <% if @floor.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@floor.errors.count, "error") %> prohibited
+        this floor from being saved:
+      </h2>
+      <ul>
+        <% @floor.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  
+  
+  <div id="infobox" class="light">
+    <%= link_to 'Home', floors_path, :class => "link" %>
+    <%= link_to 'Edit', edit_floor_path(@floor), :class => "link" %>
+    <%= link_to 'View', floor_path(@floor) %>
+    <strong><%= f.label :name %></strong>
+    <%= f.text_field :name %>
+    
+    <strong><%= f.label :level %></strong>
+    <%= f.number_field :level %>
+    
+    <p style="display:none">
+      <%= f.label :json %>
+      <%= f.text_area :json %>
+    </p>
+    <%= f.submit "Submit", :style => "display:inline" %>
+    <button id="btn_clear">Clear Floor</button>
+    <button id="btn_random">Randomize Floor</button>
+  </div>
+  
+  
+  <div id="loadicon_div">
+    <%= image_tag "hex-loader", :id=>"loadicon_img" %>
+  </div>
+  
+  
+  <div id="floor_container">
+    <object id="floor" 
+      type="image/svg+xml" 
+      class="centered floor<%= @floor.level %>"
+      data="<%= asset_path('floor'+@floor.level.to_s+'.svg') %>" 
+    ></object>
+  </div>
+  <%= javascript_include_tag "floor" %>
+<% end %>

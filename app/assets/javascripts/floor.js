@@ -49,7 +49,7 @@ function editFloor(json) {
 	floor.json = json;
 	$.ajax({
     type: "POST",
-    url: window.location.pathname, 
+    url: window.location.pathname.replace("/edit",""), 
     data: {floor,_method:"PATCH"},
     datatype:"html",
     success: function(data) {
@@ -64,7 +64,7 @@ function editFloor(json) {
 function getFloor(paths) {
 	$.ajax({
 		type: "get",
-		url: window.location.pathname + "?json=1",
+		url: window.location.pathname.replace("/edit","") + "?json=1",
 		success: function(response) {
 			console.log(response);
 			name = response.name;
@@ -92,26 +92,36 @@ function randomizeFloor(paths) {
 }
 
 function init(svgDoc,level) {
-	console.log("Initializing " + window.location.pathname);
+	console.log("Initializing " + window.location.pathname.replace("/edit",""));
 	console.log(svgDoc);
 	var paths = svgDoc.getElementsByTagName("path");
 	getFloor(paths);
 	for (var i=0;i<paths.length;i++) {
 		paths[i].addEventListener("click",function(v){
-			var current = v.toElement.getAttribute("fill");
-			var next = colours.indexOf(current);
-			v.toElement.setAttribute("fill",colours[next%colours.length+1]);
-			notifyChange(paths);
+			if (window.location.pathname.endsWith("edit")){
+				var current = v.toElement.getAttribute("fill");
+				var next = colours.indexOf(current);
+				v.toElement.setAttribute("fill",colours[next%colours.length+1]);
+				notifyChange(paths);
+			} else {
+				$("#noteditwarning").css("display","inline");
+				setTimeout(function() {$("#noteditwarning").css("display","none")},2000);
+			}
 		});
 		paths[i].addEventListener("contextmenu",function(v){
-			var current = v.toElement.getAttribute("fill");
-			var next = colours.indexOf(current);
-			next=next==-1?colours.length-1:next-1;
-			v.toElement.setAttribute("fill",colours[next]);
-			notifyChange(paths);
-			v.preventDefault();
-			v.stopPropagation();
-			return false;
+			if (window.location.pathname.endsWith("edit")){
+				var current = v.toElement.getAttribute("fill");
+				var next = colours.indexOf(current);
+				next=next==-1?colours.length-1:next-1;
+				v.toElement.setAttribute("fill",colours[next]);
+				notifyChange(paths);
+				v.preventDefault();
+				v.stopPropagation();
+				return false;
+			} else {
+				$("#noteditwarning").css("display","inline");
+				setTimeout(function() {$("#noteditwarning").css("display","none")},2000);
+			}
 		});
 	}
 	svgDoc.addEventListener("contextmenu",function(v){
