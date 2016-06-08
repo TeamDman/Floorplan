@@ -6,19 +6,27 @@ var prevTimeout=0;
 $(document).ready(function() {
 	console.log("Document loaded, waiting for maps");
 	var svgDoc = document.getElementById("floor");
-	$("#btn_clear").click(function() {
+	$("#btn_clear").click(function(v) {
 		if (confirm("Are you sure you want to clear this floor?")) {
 			var paths = svgDoc.contentDocument.getElementsByTagName("path");
 			editFloor("");
 			for (var i=0;i<paths.length;i++) {
 				paths[i].setAttribute("fill","");
 			}
+			v.preventDefault();
+			v.stopPropagation();
+			return false;
 		}
 	});
-	$("#btn_random").click(function() {
-		var paths = svgDoc.contentDocument.getElementsByTagName("path");
-		randomizeFloor(paths);
-		notifyChange(paths);
+	$("#btn_random").click(function(v) {
+		if (confirm("Are you sure you want to randomize this floor?")) {
+			var paths = svgDoc.contentDocument.getElementsByTagName("path");
+			randomizeFloor(paths);
+			notifyChange(paths);
+			v.preventDefault();
+			v.stopPropagation();
+			return false;
+		}
 	});
 	svgDoc.addEventListener("load",function(){
 		console.log("Map loaded, initializing");

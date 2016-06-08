@@ -23,7 +23,7 @@
     <%= f.text_field :name %>
     
     <strong><%= f.label :level %></strong>
-    <%= f.number_field :level %>
+    <%= f.number_field :level, max:3, min:1 %>
     
     <p style="display:none">
       <%= f.label :json %>
@@ -37,6 +37,15 @@
   
   <div id="loadicon_div">
     <%= image_tag "hex-loader", :id=>"loadicon_img" %>
+  </div>
+  
+  <div id="legend_container">
+    <% 8.times do |i| %>
+      <div>
+        <div class="legend_colour"></div>
+        <span class="legend_name">David Johnston</span>
+      </div>
+    <% end %>
   </div>
   
   
