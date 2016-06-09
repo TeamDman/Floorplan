@@ -39,12 +39,14 @@
     <%= image_tag "hex-loader", :id=>"loadicon_img" %>
   </div>
   
-  <div id="legend_container">
+  <div class="legend_container">
+    <div style="font:italic bold 30px/30px Raleway, serif; margin:10px">Legend</div>
     <% 8.times do |i| %>
-      <div>
+      <div class="legend_block" style="background-color:<%= i%2==0 ? "#baceee" : "#dae6f2" %>">
         <div class="legend_colour"></div>
         <span class="legend_name">David Johnston</span>
       </div>
+      <br>
     <% end %>
   </div>
   

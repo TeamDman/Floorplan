@@ -107,6 +107,17 @@ function init(svgDoc,level) {
 	console.log(svgDoc);
 	var paths = svgDoc.getElementsByTagName("path");
 	getFloor(paths);
+	$(".legend_colour").on("click",function(v){
+		var next=colours.indexOf(v.toElement.style.backgroundColor);
+		v.toElement.style.backgroundColor=colours[next%colours.length+1] || "black";
+	});
+	$(".legend_colour").on("contextmenu",function(v){
+		var next=colours.indexOf(v.toElement.style.backgroundColor);
+		v.toElement.style.backgroundColor=colours[next%colours.length-1] || "purple";
+		v.preventDefault();
+		v.stopPropagation();
+		return false;
+	});
 	for (var i=0;i<paths.length;i++) {
 		paths[i].addEventListener("click",function(v){
 			if (window.location.pathname.endsWith("edit")){

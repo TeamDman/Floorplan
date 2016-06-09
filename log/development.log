@@ -12438,3 +12438,3020 @@ Processing by FloorsController#show as */*
   [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 1]]
 Filter chain halted as :filter_show rendered or redirected
 Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 69.17.160.115 at 2016-06-09 13:34:01 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FloorsController#index as HTML
+  [1m[35mFloor Load (0.4ms)[0m  SELECT "floors".* FROM "floors"
+  Rendered floors/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 507ms (Views: 488.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/floor.self-93eae8662b7f02b2f798c8b5446b8016054f7df85f717dfadd09af420c937993.css?body=1" for 69.17.160.115 at 2016-06-09 13:34:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 13:34:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 13:34:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 13:34:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 13:34:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 13:34:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 13:34:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 13:34:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6" for 69.17.160.115 at 2016-06-09 13:34:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/show.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 59ms (Views: 39.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-51d89e25cab892fd78870a6213cdaf73f8ca517a50fd431416f272097c5791f1.js?body=1" for 69.17.160.115 at 2016-06-09 13:34:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:34:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:34:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (219.2ms)
+Completed 200 OK in 243ms (Views: 242.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 13:34:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:34:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:37:26 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:37:26 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:37:46 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:37:46 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:39:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (187.3ms)
+Completed 200 OK in 218ms (Views: 215.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:39:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:39:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-b26d3daf88dc7ef417ecc101b836b236d92970104dbf86a1d8765937fdf53fad.css?body=1" for 69.17.160.115 at 2016-06-09 13:39:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:39:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:40:42 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 201ms (Views: 198.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-3d1b88c2b38d77035b13abef7d569382509f83e15d8eece4f62d48898412c2c2.css?body=1" for 69.17.160.115 at 2016-06-09 13:40:42 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:40:42 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:40:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 202ms (Views: 201.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-f0715fd6f2b3c2e8a18953d83086d8e1585d36417c25c52d2c2ac1aed744c324.css?body=1" for 69.17.160.115 at 2016-06-09 13:40:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:40:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 213ms (Views: 211.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-b294671e81baee45a0ff1ddeeebc195699df9c2213857c9ec0368005d32b9b15.css?body=1" for 69.17.160.115 at 2016-06-09 13:41:32 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:41:32 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:41:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 62ms (Views: 59.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-0b4880349bf6cce345e7c7492dfb1e284d86079c3e3a4d0c8269a48a29cf762e.css?body=1" for 69.17.160.115 at 2016-06-09 13:41:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:41:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:43:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-b294671e81baee45a0ff1ddeeebc195699df9c2213857c9ec0368005d32b9b15.css?body=1" for 69.17.160.115 at 2016-06-09 13:43:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-51d89e25cab892fd78870a6213cdaf73f8ca517a50fd431416f272097c5791f1.js?body=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:43:15 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:43:26 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-2fb3afb7df3f6bb3abe8800c7340a94dffc843ccb855030c45aeedb8b0d46b62.css?body=1" for 69.17.160.115 at 2016-06-09 13:43:26 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:43:27 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:45:41 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 223ms (Views: 69.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-3fb77627191b913a9528b88804c8cbbcbd828d49838497c37c7b049bd5c2a545.css?body=1" for 69.17.160.115 at 2016-06-09 13:45:42 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:45:42 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:46:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 201ms (Views: 85.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-d2c5fdbec160f9d4cacd3424720f449e8776b24b4edd300ac76ad66837c212fb.css?body=1" for 69.17.160.115 at 2016-06-09 13:46:09 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:46:09 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:46:17 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 71ms (Views: 69.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-80a7000a136082316be315ac032e30718231d11d5e29c0c0f6c3310f2ce5410f.css?body=1" for 69.17.160.115 at 2016-06-09 13:46:17 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:46:17 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.5ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 127ms (Views: 124.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-4d6ecc920a1ed5dfa6eeb66fe42f3bdcd6563af93cf56a4d9ab5b41dd68fea54.css?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-51d89e25cab892fd78870a6213cdaf73f8ca517a50fd431416f272097c5791f1.js?body=1" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 13:49:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:49:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:50:12 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-ac8e76c44446ff5d5325caf0aeef87ca065aa4af3c16138b5d0356b61ab836b5.css?body=1" for 69.17.160.115 at 2016-06-09 13:50:12 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:50:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:50:21 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-84fe92ef6875ab977a025f143f5ffa976ed28132b3b4fdfcf9c4fc81d4e1cc43.css?body=1" for 69.17.160.115 at 2016-06-09 13:50:21 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:50:21 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:52:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-ff1a3713c39067b19df5b64e14688bf34ad562a9f01f904aa59e50e23fcc8185.css?body=1" for 69.17.160.115 at 2016-06-09 13:52:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:52:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:53:52 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 145ms (Views: 142.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:53:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:54:09 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 59ms (Views: 56.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-87e367c884ddfc05c1b833d6132b51520866d621156b528e43f7abc296e01f34.css?body=1" for 69.17.160.115 at 2016-06-09 13:54:09 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:54:10 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:58:32 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 179ms (Views: 177.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-19669e6c5af86bdcf8ff12d9ecdae3cad9893cec725a9f4827001569646f0e9b.css?body=1" for 69.17.160.115 at 2016-06-09 13:58:32 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:58:32 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:59:44 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 172ms (Views: 169.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-4fdb29ad604aa76513417abe038b3072a94db41d3de8f5d330c6b040e02ccd4d.css?body=1" for 69.17.160.115 at 2016-06-09 13:59:44 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:59:44 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:59:50 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 65ms (Views: 62.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-fbaf724e8b32d63e9deafedb8f07856954614bee36392b8767c8ce723b35ee11.css?body=1" for 69.17.160.115 at 2016-06-09 13:59:50 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:59:50 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:59:54 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.5ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 138ms (Views: 135.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:59:54 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 13:59:57 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.7ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 70ms (Views: 67.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 13:59:57 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.5ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:00:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 72ms (Views: 70.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-a1f8aab0434b0a556eb282ee9790720559651f1d3051a3da728268827340a738.css?body=1" for 69.17.160.115 at 2016-06-09 14:00:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:00:04 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:00:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:00:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:00:12 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 157ms (Views: 155.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:00:12 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 6ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:00:18 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-99d6c3d5ccbaf170c8f12ceb2305bea65dccc23d50e922d670918f08492cea97.css?body=1" for 69.17.160.115 at 2016-06-09 14:00:18 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:00:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:00:35 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-4532752bc695eee54eb416198a34f1008d40556bf8c2dbdb67525c32fbe19e2e.css?body=1" for 69.17.160.115 at 2016-06-09 14:00:35 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:00:35 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:00:40 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-e8bbd5efc9c9476f4b9c363a80d965e7da5e60251f831b8313b1e7db19828ff9.css?body=1" for 69.17.160.115 at 2016-06-09 14:00:41 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:00:41 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:01:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 127ms (Views: 124.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-096569786cd205d9368afdd7f0810ee8ce02412f88a0a6456bce0665ac3bb031.css?body=1" for 69.17.160.115 at 2016-06-09 14:01:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:01:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:01:54 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-9b3607b6e56f44299ba367224337106b1c94760ecf23a026a51b93e8d60b1aaf.css?body=1" for 69.17.160.115 at 2016-06-09 14:01:54 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:01:55 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:02:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-53a543926dff1cbc3d7deb97fa25c9ad8feba330d1445bfcfcbf8d660c0883b3.css?body=1" for 69.17.160.115 at 2016-06-09 14:02:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:02:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:04:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:04:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:04:55 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 119ms (Views: 117.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:04:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:07:10 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (64.1ms)
+Completed 200 OK in 111ms (Views: 107.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-99b825ea6a34aae0601aa92969542a84b8aee8dd8e9b3e3c38767a8a14fe7209.css?body=1" for 69.17.160.115 at 2016-06-09 14:07:10 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:07:10 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:07:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:07:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:08:37 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 211ms (Views: 208.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-bf1917045d2af1a72947935829850927aa9135ded74e9aeb5bb9160fda3b98aa.css?body=1" for 69.17.160.115 at 2016-06-09 14:08:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:08:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:08:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-51713a74eba41b85d76902eb4a867e4ec3a476800a26eea7d888577b0387a564.css?body=1" for 69.17.160.115 at 2016-06-09 14:08:50 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:08:50 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:09:50 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 69ms (Views: 67.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-a8c853743810585b30a32cde814505afa14119cc698d88863578ad3054742ccc.css?body=1" for 69.17.160.115 at 2016-06-09 14:09:50 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:09:50 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:09:58 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-236127080fd74ef9f7863b924e2626e456e2a74a1f0e0e4b21361bf9d7444fc6.css?body=1" for 69.17.160.115 at 2016-06-09 14:09:58 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:09:58 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:10:26 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 70ms (Views: 67.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-fbbc8cb0b1080503f04e784a0d8876535aa47ac97f49bd7760f6be167eac6eff.css?body=1" for 69.17.160.115 at 2016-06-09 14:10:26 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:10:26 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:11:28 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 126ms (Views: 124.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-b6dd43fb932b14b3816af785957a2e6eab8caf61918c2a466d26b9b418f22218.css?body=1" for 69.17.160.115 at 2016-06-09 14:11:28 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:11:28 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:12:43 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-e2da39d6281b51308cdf92048a8247cf4aca8ce4bb6fdad1a6dfa8cd4c4fcbf9.css?body=1" for 69.17.160.115 at 2016-06-09 14:12:43 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:12:44 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:13:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 118ms (Views: 115.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-f49b913d21ddbdf59ca23a1182102c398076bc85eae34415c588c601ca163463.css?body=1" for 69.17.160.115 at 2016-06-09 14:13:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:13:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:13:57 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:13:58 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:15:55 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 141ms (Views: 137.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-825d399817a173ca1ae57e4965b1414d876336f683b190470a70611af0d9fa31.css?body=1" for 69.17.160.115 at 2016-06-09 14:15:55 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:15:55 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:17:06 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:17:06 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:18:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (54.5ms)
+Completed 200 OK in 113ms (Views: 110.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-cbafa0235e99a8e9d39d2948d5884ffa270ef0334a4ebdc7d36da37c0c0ad4aa.css?body=1" for 69.17.160.115 at 2016-06-09 14:18:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:18:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:18:45 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (1.1ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 97ms (Views: 94.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/floor.self-d715d445943871e55154da2cb6ea66f574926f34ba87f8f9d81aa9505028051f.css?body=1" for 69.17.160.115 at 2016-06-09 14:18:45 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:18:45 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:19:01 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-c8419f9095830a461d679810a472665e092c62f054b6e344096d96c7b3169795.css?body=1" for 69.17.160.115 at 2016-06-09 14:19:01 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:19:01 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:19:54 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-c7add08c1754a5a12ed41950e5be71082112435255202a0b5b2d7488a6f6140d.css?body=1" for 69.17.160.115 at 2016-06-09 14:19:54 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:19:54 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:20:02 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-c8bfe5c01d21865facd8bb64d3e79cef7adc224647767556cfbb560dcc6d915d.css?body=1" for 69.17.160.115 at 2016-06-09 14:20:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:20:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:20:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 39ms (Views: 36.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:20:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:20:58 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:20:58 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:21:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 134ms (Views: 132.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:21:06 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:23:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 82ms (Views: 79.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-66b96f370e1ed5b52fb01641d692baa2b833bef2aec3478f60c5abbc6a5217b2.css?body=1" for 69.17.160.115 at 2016-06-09 14:23:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:23:30 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:23:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 88ms (Views: 84.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-d51643222d344377b63fa902b261fd1b4dcf2ffdec7a4cf2a4223511e30f7af2.css?body=1" for 69.17.160.115 at 2016-06-09 14:23:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:23:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:24:28 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 113ms (Views: 111.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-7ceee2a0075495d65f2a87fdb4b8035ce9add0e7438a15be74d42dd93e3000ce.css?body=1" for 69.17.160.115 at 2016-06-09 14:24:28 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:24:28 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:24:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 84ms (Views: 82.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:24:32 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:24:32 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:25:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:25:17 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:25:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 134ms (Views: 132.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:25:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:26:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 183ms (Views: 181.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:26:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:27:18 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 67ms (Views: 62.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:27:18 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:27:41 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 82ms (Views: 79.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:27:41 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:27:55 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 55ms (Views: 53.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:27:55 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:28:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:28:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:28:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.4ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 89ms (Views: 86.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:28:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:29:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-9633c2181b9fef8c53662e896e97252b121060116929478892dfc68bc21200d0.js?body=1" for 69.17.160.115 at 2016-06-09 14:29:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:31:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 160ms (Views: 157.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-6f82f82de153ae9868329bf247a5585103736fab4c964c0cda0589014cb12faf.js?body=1" for 69.17.160.115 at 2016-06-09 14:31:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:31:45 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 97ms (Views: 95.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-bcc83707f9e716a20ed898a5ddab5cec06b92ac06592a4198629d033355fb492.js?body=1" for 69.17.160.115 at 2016-06-09 14:31:45 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:32:07 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 158ms (Views: 156.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-bcc83707f9e716a20ed898a5ddab5cec06b92ac06592a4198629d033355fb492.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:32:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:32:30 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 110ms (Views: 107.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-44029b0d067c416b928cdd1e8646ca4a2d0d76e0b14925ba49dfb768b4c63ff9.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:30 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 161ms (Views: 158.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-44029b0d067c416b928cdd1e8646ca4a2d0d76e0b14925ba49dfb768b4c63ff9.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:32:34 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:32:52 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-4c95ac3558afda5a345b300664f8a6f25012d03c7a7be3db7a4f1050d778dc2b.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:52 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-4c95ac3558afda5a345b300664f8a6f25012d03c7a7be3db7a4f1050d778dc2b.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:32:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:32:54 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:34:06 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 47ms (Views: 39.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-9b0694838cddec41a8c1e03b6a885ec1048f8fef74dfc5cb07bfd44323222dd8.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:06 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 114ms (Views: 112.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-9b0694838cddec41a8c1e03b6a885ec1048f8fef74dfc5cb07bfd44323222dd8.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:34:08 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:34:27 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-9f1cfdbf33429f6961792324f75ea9fadfb69a0b9c33c6c979e4e842a81bcfc5.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:28 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-9f1cfdbf33429f6961792324f75ea9fadfb69a0b9c33c6c979e4e842a81bcfc5.js?body=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:34:29 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:35:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-2f0200238d658b79a34a1f50064d470271cecee9bbba8d8e771d0abd4ccaa1b6.js?body=1" for 69.17.160.115 at 2016-06-09 14:35:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 120ms (Views: 116.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2f0200238d658b79a34a1f50064d470271cecee9bbba8d8e771d0abd4ccaa1b6.js?body=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:35:49 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:36:47 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-e3c3a89613e65babfe1f153387a615b62e375261aaf214eae261302f9087eba9.js?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-e3c3a89613e65babfe1f153387a615b62e375261aaf214eae261302f9087eba9.js?body=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:36:48 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:37:10 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 150ms (Views: 148.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-1ce9491a5c999ca4ee4627188ed76121274b795f97e83f711744bacf07219280.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:10 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-1ce9491a5c999ca4ee4627188ed76121274b795f97e83f711744bacf07219280.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-1ce9491a5c999ca4ee4627188ed76121274b795f97e83f711744bacf07219280.js?body=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:37:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.5ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:40:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 150ms (Views: 147.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-69a4840901be4fa486f7a6f8137ef3034b10351a5ebb073feef925e107474e33.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:40:16 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-69a4840901be4fa486f7a6f8137ef3034b10351a5ebb073feef925e107474e33.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:17 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:40:18 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-69a4840901be4fa486f7a6f8137ef3034b10351a5ebb073feef925e107474e33.js?body=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:40:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:41:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-1de254565da82389e183622787fa5382bb8d6e75db93111131f816b540817dca.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:11 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-1de254565da82389e183622787fa5382bb8d6e75db93111131f816b540817dca.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:41:13 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:41:14 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:41:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 210ms (Views: 207.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-1de254565da82389e183622787fa5382bb8d6e75db93111131f816b540817dca.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:41:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:41:30 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 117ms (Views: 114.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-db7915ad3a488aa971a0b9fcc3ac7c49c1a463024b18ba7af9335265940a29d1.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:30 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 187ms (Views: 185.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-db7915ad3a488aa971a0b9fcc3ac7c49c1a463024b18ba7af9335265940a29d1.js?body=1" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:41:31 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:41:32 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:42:37 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/floor.self-495e0ede1fd207f94ea82d47670460b5c77085a7e2708ab648c83146275b6224.js?body=1" for 69.17.160.115 at 2016-06-09 14:42:37 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:42:38 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-495e0ede1fd207f94ea82d47670460b5c77085a7e2708ab648c83146275b6224.js?body=1" for 69.17.160.115 at 2016-06-09 14:42:39 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:42:39 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:42:39 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:43:57 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 82ms (Views: 73.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-40d5c6bf57b8ded911d2f69ead4ecc553e2a52b133c249ab37f1fcc3134262a6.js?body=1" for 69.17.160.115 at 2016-06-09 14:43:58 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-40d5c6bf57b8ded911d2f69ead4ecc553e2a52b133c249ab37f1fcc3134262a6.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:44:00 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:44:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-5fa4ac9fa0e6af7229940017815fbb15ff215490e05b8361175df26c95812a09.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:23 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:44:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:24 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-5fa4ac9fa0e6af7229940017815fbb15ff215490e05b8361175df26c95812a09.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:44:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:44:25 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.4ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:44:52 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 249ms (Views: 65.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-e06729fb10650a0c8ce70dee3cc1f2fc79406657f9e97a0dda8bc2a52e780380.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:53 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 89ms (Views: 86.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-e06729fb10650a0c8ce70dee3cc1f2fc79406657f9e97a0dda8bc2a52e780380.js?body=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:44:56 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 9ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:45:30 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/floor.self-8f03fd0469f51ceac93103e3a7576fa3ac3a3ac1d607e2025817496acd75b39e.js?body=1" for 69.17.160.115 at 2016-06-09 14:45:30 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-8f03fd0469f51ceac93103e3a7576fa3ac3a3ac1d607e2025817496acd75b39e.js?body=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:45:33 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.2ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:46:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 70ms (Views: 67.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-98791a7a629910cd67306279c75f1d8677b4bfe7a0d75e3cfbe0550275266029.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:03 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 55ms (Views: 52.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-98791a7a629910cd67306279c75f1d8677b4bfe7a0d75e3cfbe0550275266029.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:46:05 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:46:06 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[36mFloor Load (0.2ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:46:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (89.2ms)
+Completed 200 OK in 121ms (Views: 118.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-52839c634ce667d6b17e445d92a1a072ccf2df4931d780f2702fc5cbe9ef2542.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:19 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6/edit" for 69.17.160.115 at 2016-06-09 14:46:21 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered floors/edit.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/floor.self-2bb070bc7a4f35e85fc7a17608555cdbac2de7eddff978bec5bd57528b666991.css?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/floor.self-52839c634ce667d6b17e445d92a1a072ccf2df4931d780f2702fc5cbe9ef2542.js?body=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/hex-loader-364f77aa43963d74c1f5aadf3599210e63a22baa54a24b89ca9a37f8be057da3.gif" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/floors/6?json=1" for 69.17.160.115 at 2016-06-09 14:46:22 +0000
+Cannot render console from 69.17.160.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FloorsController#show as */*
+  Parameters: {"json"=>"1", "id"=>"6"}
+  [1m[35mFloor Load (0.3ms)[0m  SELECT  "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", 6]]
+Filter chain halted as :filter_show rendered or redirected
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.3ms)
